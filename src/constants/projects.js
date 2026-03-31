@@ -221,12 +221,12 @@ const projects = [
   },
   {
     id: 'project1',
-    title: 'Project1',
-    img: '/project1/project1.webp',
+    title: 'Coffee Shop',
+    img: '/project1/1.webp',
     link: '/projects/project1',
-    date: '2024',
-    company: 'Company 4',
-    livelink: undefined,
+    date: '2025 Desember',
+    company: 'Personal Project',
+    liveLink: 'https://kopi-klasik.vercel.app/',
     primary: '#000000',
     accentColor: '#f0f4f1',
     secondary: '#F9F9F9',
@@ -236,11 +236,6 @@ const projects = [
     fluidColor: '#FF573E',
     images: [
       {
-        src: '/project1/video.mp4',
-        tag: 'video',
-        isRight: false,
-      },
-      {
         src: '/project1/1.webp',
         tag: 'big',
         isRight: false,
@@ -248,42 +243,23 @@ const projects = [
       {
         src: '/project1/2.webp',
         tag: 'small',
-        isRight: false,
-      },
-      {
-        src: '/project1/7.webp',
-        tag: 'small',
         isRight: true,
       },
       {
-        src: '/project1/5.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project1/6.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project1/8.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
         src: '/project1/3.webp',
-        tag: 'small',
+        tag: 'big',
         isRight: false,
       },
       {
         src: '/project1/4.webp',
         tag: 'small',
-        isRight: true,
+        isRight: false,
       },
     ],
     desc: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Developed a Coffee Shop Progressive Web App using React and TypeScript with modern frontend architecture.',
+      'Implemented responsive UI with Tailwind CSS, state management using Zustand, and API data handling with React Query.',
+      'Integrated Supabase for backend services and authentication while building reusable components and admin dashboard features.',
     ],
   },
   {
