@@ -96,8 +96,8 @@ function Footer() {
           <h4 className={clsx(styles.workWithMe, 'h4')}>Work With Me:</h4>
           <div>
             <div className={styles.link}>
-              <Link aria-label="Send email" scroll={false} href="mailto:vaggelisgiats@gmail.com">
-                <h4 className={clsx(styles.email, 'h4')}>vaggelisgiats@gmail.com</h4>
+              <Link aria-label="Send email" scroll={false} href="mailto:giovernando24@gmail.com">
+                <h4 className={clsx(styles.email, 'h4')}>giovernando24@gmail.com</h4>
               </Link>
               {/* class="link__graphic link__graphic--slide" */}
               <svg className={clsx(styles.linkGraphic)} width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
