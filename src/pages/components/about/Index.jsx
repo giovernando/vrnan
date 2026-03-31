@@ -42,7 +42,7 @@ function About() {
 
   const renderImageContainer = () => (
     <div className={styles.imageContainer}>
-      <Image priority src="/giats/front.webp" sizes="100%" fill alt="Gio Vernando" />
+      <Image priority src="/giats/front.webp" sizes="100%" fill style={{ objectFit: 'cover' }} alt="Gio Vernando" />
     </div>
   );
 
