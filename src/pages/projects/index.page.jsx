@@ -107,7 +107,7 @@ function Page() {
                     <h3 className={clsx(styles.text, 'h3')}>{project.title}</h3>
                   </div>
                   <div className={styles.imageContainer}>
-                    <Image priority={index === 0} sizes="100%" src={project.img} fill alt={project.title} />
+                    <Image priority={index === 0} sizes="100%" src={project.img} fill style={{ objectFit: 'cover' }} alt={project.title} />
                   </div>
                 </div>
               </div>
@@ -123,6 +123,7 @@ function Page() {
                   className={index === 0 ? styles.firstCard : index === projects.length - 1 ? styles.lastCard : undefined}
                   src={project.img}
                   fill
+                  style={{ objectFit: 'cover' }}
                   alt={project.title}
                 />
               </div>
