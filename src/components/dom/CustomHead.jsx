@@ -13,7 +13,7 @@ const getSchema = () => ({
   url: SITE_URL,
   image: OG_IMAGE,
   email: 'mailto:giovernando24@gmail.com',
-  sameAs: ['https://www.linkedin.com/in/giats/', 'https://github.com/Vrnan2498', 'https://twitter.com/Vrnan_', 'https://www.instagram.com/giats_/'],
+  sameAs: ['https://linkedin.com/in/giovernando', 'https://github.com/giovernando', 'https://twitter.com/Vrnan_', 'https://www.instagram.com/_vrnangio?igsh=MXdncm9zbzdtMzJwdg=='],
   alumniOf: [
     { '@type': 'Organization', name: 'Company 1' },
     { '@type': 'Organization', name: 'Company 2' },

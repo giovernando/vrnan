@@ -1,15 +1,15 @@
 const footerLinks = [
   {
     title: 'Github',
-    href: 'https://github.com/Vrnan2498',
+    href: 'https://github.com/giovernando',
   },
   {
     title: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/giats',
+    href: 'https://linkedin.com/in/giovernando',
   },
   {
     title: 'Instagram',
-    href: 'https://www.instagram.com/giats_/',
+    href: 'https://www.instagram.com/_vrnangio?igsh=MXdncm9zbzdtMzJwdg==',
   },
   {
     title: 'Twitter',
