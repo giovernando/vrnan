@@ -11,9 +11,5 @@ const footerLinks = [
     title: 'Instagram',
     href: 'https://www.instagram.com/_vrnangio?igsh=MXdncm9zbzdtMzJwdg==',
   },
-  {
-    title: 'Twitter',
-    href: 'https://twitter.com/Vrnan_',
-  },
 ];
 export default footerLinks;
