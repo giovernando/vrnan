@@ -62,7 +62,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>Dec 2025 - Jan 2026</AppearTitle>
+          <AppearTitle>2026</AppearTitle>
         </div>
       ) : null}
       <div
@@ -116,7 +116,7 @@ function Clients() {
             className={styles.firstText}
           >
             <AppearTitle>
-              <h6 className="h6">Dec 2025 - Feb 2026</h6>
+              <h6 className="h6">2026</h6>
             </AppearTitle>
             <AppearTitle>
               <h4 className={clsx('h4', 'bold', styles.title)}>
@@ -124,9 +124,6 @@ function Clients() {
               </h4>
             </AppearTitle>
             <AppearTitle>
-              <h5 className="h5">
-                <b>Frontend Developer</b>
-              </h5>
               <div className="p-l">
                 Worked as a Frontend Developer Intern at Codveda
               </div>
@@ -158,7 +155,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>Okt 2025 - Jan 2026</AppearTitle>
+          <AppearTitle>2025</AppearTitle>
         </div>
       ) : null}
       <div
@@ -178,9 +175,6 @@ function Clients() {
             </h4>
           </AppearTitle>
           <AppearTitle>
-            <h5 className="h5">
-              <b>Frontend Developer</b>
-            </h5>
             <div className="p-l">
               Completed an intensive frontend bootcamp, gaining hands
             </div>
@@ -219,7 +213,7 @@ function Clients() {
             className={styles.secondText}
           >
             <AppearTitle>
-              <h6 className="h6">Okt 2025 - Jan 2026</h6>
+              <h6 className="h6">2025</h6>
             </AppearTitle>
             <AppearTitle>
               <h4 className={clsx('h4', 'bold', styles.title)}>
@@ -227,9 +221,6 @@ function Clients() {
               </h4>
             </AppearTitle>
             <AppearTitle>
-              <h5 className="h5">
-                <b>Frontend Developer</b>
-              </h5>
               <div className="p-l">
                 Completed an intensive frontend bootcamp, gaining hands
               </div>
@@ -264,7 +255,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>Aug 2024 - Sep 2024</AppearTitle>
+          <AppearTitle>2024</AppearTitle>
         </div>
       ) : null}
       <div
@@ -282,9 +273,6 @@ function Clients() {
             <h4 className={clsx('h4', 'bold')}>Synepse Academy</h4>
           </AppearTitle>
           <AppearTitle>
-            <h5 className="h5">
-              <b>Frontend Developer</b>
-            </h5>
             <div className="p-l">
               Developed responsive e-learning web interfaces designed toX
             </div>
@@ -323,7 +311,7 @@ function Clients() {
             className={styles.thirdText}
           >
             <AppearTitle>
-              <h6 className="h6">Aug 2024 - Sep 2024</h6>
+              <h6 className="h6">2024</h6>
             </AppearTitle>
             <AppearTitle>
               <h4 className={clsx('h4', 'bold', styles.title)}>
@@ -331,9 +319,6 @@ function Clients() {
               </h4>
             </AppearTitle>
             <AppearTitle>
-              <h5 className="h5">
-                <b>Frontend Developer</b>
-              </h5>
               <div className="p-l">
                 Developed responsive e-learning web interfaces designed
               </div>
