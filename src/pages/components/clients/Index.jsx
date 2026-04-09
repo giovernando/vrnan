@@ -75,10 +75,8 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l" style={{ marginBottom: '1rem' }}><b>Frontend Developer Intern – Codveda Technologies (Remote)</b></div>
-            <div className="p-l" style={{ marginBottom: '1rem' }}>Worked as a Frontend Developer Intern at Codveda Technologies, contributing to the development of responsive and user-friendly web applications in a remote, cross-cultural environment.</div>
-            <div className="p-l" style={{ marginBottom: '1rem' }}>Responsible for building and optimizing user interfaces using modern technologies such as React, TypeScript, and Tailwind CSS. Collaborated with designers and backend developers to translate UI/UX designs into functional, high-quality code while ensuring performance, accessibility, and responsiveness across multiple devices.</div>
-            <div className="p-l" style={{ marginBottom: '1rem' }}>Participated in code reviews, debugging, and feature enhancements to improve overall application quality. Applied best practices in component-based architecture, clean code principles, and separation of concerns to maintain scalable and maintainable codebases.</div>
-            <div className="p-l">This experience strengthened my ability to work independently, communicate effectively in a distributed team, and deliver solutions in a fast-paced development environment.</div>
+            <div className="p-l" style={{ marginBottom: '1rem' }}>Worked as a Frontend Developer Intern at Codveda Technologies, contributing to the development of responsive and user-friendly web applications in a remote, cross-cultural environment. Built and optimized user interfaces using React, TypeScript, and Tailwind CSS, while collaborating with designers and backend developers to transform UI/UX designs into functional, high-quality implementations.</div>
+            <div className="p-l">Participated in code reviews, debugging, and feature enhancements to improve overall application performance and usability. Applied best practices such as component-based architecture, clean code principles, and separation of concerns, while strengthening skills in remote collaboration, problem-solving, and delivering solutions in a fast-paced development environment.</div>
           </AppearTitle>
         </div>
       ) : null}
