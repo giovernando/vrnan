@@ -95,7 +95,7 @@ function MyApp({ Component, pageProps, router }) {
         </div>
         <Scrollbar />
         <Navbar />
-        <Analytics />
+        <Analytics mode={process.env.NODE_ENV === 'production' ? 'production' : 'development'} />
       </>
     ),
     [],
