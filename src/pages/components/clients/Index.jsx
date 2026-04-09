@@ -335,30 +335,35 @@ function Clients() {
                 <b>Frontend Developer</b>
               </h5>
               <div className="p-l">
-                Developed responsive e-learning web interfaces designed toX
+                Developed responsive e-learning web interfaces designed
               </div>
               <div className="p-l">
-                deliver a seamless and engaging user experience across both
+                toX deliver a seamless and engaging user experience
               </div>
               <div className="p-l">
-                desktop and mobile devices. Focused on creating intuitive
+                across both desktop and mobile devices. Focused on
               </div>
               <div className="p-l">
-                layouts and interactive components to support effective content
+                creating intuitive layouts and interactive components to
               </div>
               <div className="p-l">
-                delivery and user navigation. Integrated frontend components
+                support effective content delivery and user navigation.
               </div>
               <div className="p-l">
-                with backend APIs to enable dynamic data handling and improve
+                Integrated frontend components with backend APIs
               </div>
               <div className="p-l">
-                overall application functionality. Ensured smooth communication
+                to enable dynamic data handling and improve overall
               </div>
               <div className="p-l">
-                between client and server while optimizing performance and
+                application functionality. Ensured smooth communication
               </div>
-              <div className="p-l">enhancing the overall user experience.</div>
+              <div className="p-l">
+                between client and server while optimizing performance
+              </div>
+              <div className="p-l">
+                and enhancing the overall user experience.
+              </div>
             </AppearTitle>
           </div>
         </>
