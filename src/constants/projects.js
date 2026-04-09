@@ -1,12 +1,12 @@
 const projects = [
   {
     id: 'project3',
-    title: 'Project3',
-    img: '/project3/project3.webp',
+    title: 'Kedai Sepatu',
+    img: '/project3/project3.png',
     link: '/projects/project3',
-    date: '2023',
-    liveLink: 'https://www.example.com/',
-    company: 'Company 2',
+    date: '2024',
+    liveLink: 'https://kedai-sepatu.vercel.app/',
+    company: 'Personal Project',
     primary: '#2D2D2D',
     accentColor: '#FCFBF7',
     secondary: '#F2EEE7',
@@ -16,55 +16,15 @@ const projects = [
     fluidColor: '#0028FF',
     images: [
       {
-        src: '/project3/video.mp4',
-        tag: 'video',
-        isRight: false,
-      },
-      {
-        src: '/project3/7.webp',
-        tag: 'small',
-        isRight: false,
-      },
-      {
-        src: '/project3/6.webp',
-        tag: 'small',
-        isRight: true,
-      },
-      {
-        src: '/project3/video2.mp4',
-        tag: 'video',
-        isRight: false,
-      },
-      {
-        src: '/project3/1.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project3/5.webp',
-        tag: 'small',
-        isRight: false,
-      },
-      {
-        src: '/project3/8.webp',
-        tag: 'small',
-        isRight: true,
-      },
-      {
-        src: '/project3/2.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project3/3.webp',
+        src: '/project3/project3.png',
         tag: 'big',
         isRight: false,
       },
     ],
     desc: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'Kedai Sepatu is a modern e-commerce web application designed to provide a seamless and user-friendly online shopping experience for footwear. The platform allows users to explore a curated collection of shoes, ranging from casual to sporty styles, through a clean and interactive interface.',
+      'The website features product catalog browsing, search functionality, and a fully responsive design to ensure accessibility across desktop and mobile devices. It is built with a strong focus on performance, usability, and intuitive UI/UX to enhance user engagement and conversion.',
+      'This project was developed using modern web technologies such as React, TypeScript, and Tailwind CSS, with a clean architecture approach that separates UI and business logic to ensure scalability and maintainability.',
     ],
   },
 
@@ -113,12 +73,12 @@ const projects = [
   },
   {
     id: 'project2',
-    title: 'Project2',
-    img: '/project2/project2.webp',
+    title: 'Verflix (Streaming Vidio)',
+    img: '/project2/project2.png',
     link: '/projects/project2',
-    date: '2022',
-    company: 'Company 3',
-    liveLink: 'https://www.example.com/',
+    date: '2024',
+    company: 'Personal Project',
+    liveLink: 'https://verflix-seven.vercel.app/',
     primary: '#0e0063',
     accentColor: '#f0f4f1',
     secondary: '#fbfbfc',
@@ -128,31 +88,15 @@ const projects = [
     fluidColor: '#E8FFC8',
     images: [
       {
-        src: '/project2/video.mp4',
-        tag: 'video',
-        isRight: true,
-      },
-      {
-        src: '/project2/1.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project2/2.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project2/3.webp',
+        src: '/project2/project2.png',
         tag: 'big',
         isRight: false,
       },
     ],
     desc: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Developed a video streaming Progressive Web App (PWA) inspired by Netflix using React and TypeScript with a modern frontend architecture.',
+      'Implemented a responsive and interactive UI using Tailwind CSS, along with state management using Zustand and efficient data fetching with React Query.',
+      'Integrated Supabase for backend services, including authentication, database management, and real-time features, while building reusable components and implementing features such as video search, watchlist (My List), and user notification system.',
     ],
   },
 ];

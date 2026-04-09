@@ -23,13 +23,13 @@ function NextProject({ nextProject }) {
                   <h3 className={clsx(styles.text, 'h3')}>{nextProject.title}</h3>
                 </div>
                 <div className={styles.imageContainer}>
-                  <Image priority sizes="100%" src={nextProject.img} fill style={{ objectFit: 'cover' }} alt={nextProject.title} />
+                  <Image priority sizes="100%" src={nextProject.img} fill style={{ objectFit: 'contain' }} alt={nextProject.title} />
                 </div>
               </div>
             </div>
 
             <div className={styles.canvas}>
-              <Image priority sizes="100%" src={nextProject.img} fill style={{ objectFit: 'cover' }} alt={nextProject.title} />
+              <Image priority sizes="100%" src={nextProject.img} fill style={{ objectFit: 'contain' }} alt={nextProject.title} />
             </div>
           </Link>
         </div>
