@@ -34,7 +34,7 @@ function Clients() {
               },
             })
             .to(textRef, {
-              top: `${10 + 30 * index + 5.5555556 * index}vw`,
+              top: index === 1 ? '70vw' : '10vw',
             });
         });
       }

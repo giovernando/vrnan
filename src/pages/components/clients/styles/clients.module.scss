@@ -129,7 +129,7 @@
     position: relative;
     grid-column: 12 / 17;
     height: 30vw;
-    margin-top: calc(var(--layout-columns-gap) * 4);
+    margin-top: calc(var(--layout-columns-gap) * 35);
     border-radius: var(--layout-columns-gap);
     box-shadow: 0 0 0 calc(var(--layout-columns-gap) * 1) var(--white);
 
@@ -159,7 +159,7 @@
     z-index: 2;
     position: absolute;
     display: flex;
-    top: 55vw;
+    top: 110vw;
     flex-direction: column;
     gap: var(--layout-columns-gap);
     grid-column: 1 / 6;
