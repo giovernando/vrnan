@@ -81,20 +81,27 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Worked as a Frontend Developer Intern at Codveda Technologies,
+              Worked as a Frontend Developer Intern at Codveda
             </div>
-            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
             <div className="p-l">
-              incididunt ut labore et dolore magna aliqua.
+              Technologies, contributing to the development
             </div>
-            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
             <div className="p-l">
-              exercitation ullamco laboris nisi ut aliquip
+              of responsive and user-friendly web applications in a
             </div>
-            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
+            <div className="p-l">remote, cross-cultural environment.</div>
             <div className="p-l">
-              esse cillum dolore eu fugiat nulla pariatur.
+              Built and optimized user interfaces using React,
+            </div>
+            <div className="p-l">
+              TypeScript, and Tailwind CSS, while collaborating with
+            </div>
+            <div className="p-l">
+              designers and backend developers to transform UI/UX
+            </div>
+            <div className="p-l">
+              {' '}
+              designs into functional, high-quality implementations.
             </div>
           </AppearTitle>
         </div>
@@ -120,17 +127,29 @@ function Clients() {
               <h5 className="h5">
                 <b>Frontend Developer</b>
               </h5>
-              <p className="p-l">
-                Worked as a Frontend Developer Intern at Codveda Technologies,
-                developing responsive and user-friendly web applications in a
-                remote, cross-cultural environment using React, TypeScript, and
-                Tailwind CSS, while collaborating with designers and backend
-                developers to deliver high-quality UI implementations.
-                Contributed to code reviews, debugging, and feature
-                enhancements, applying clean code principles and component-based
-                architecture while strengthening skills in problem-solving and
-                remote teamwork.
-              </p>
+              <div className="p-l">
+                Worked as a Frontend Developer Intern at Codveda
+              </div>
+              <div className="p-l">
+                Technologies, contributing to the development
+              </div>
+              <div className="p-l">
+                of responsive and user-friendly web applications in a
+              </div>
+              <div className="p-l">remote, cross-cultural environment.</div>
+              <div className="p-l">
+                Built and optimized user interfaces using React,
+              </div>
+              <div className="p-l">
+                TypeScript, and Tailwind CSS, while collaborating with
+              </div>
+              <div className="p-l">
+                designers and backend developers to transform UI/UX
+              </div>
+              <div className="p-l">
+                {' '}
+                designs into functional, high-quality implementations.
+              </div>
             </AppearTitle>
           </div>
         </>
@@ -162,16 +181,32 @@ function Clients() {
             <h5 className="h5">
               <b>Frontend Developer</b>
             </h5>
-            <p className="p-l">
-              Completed an intensive frontend bootcamp, gaining hands-on
-              experience in building responsive and scalable web applications
-              using React, TypeScript, and Tailwind CSS, while developing
-              projects with component-based architecture and clean code
-              principles. Collaborated in team environments using Git and
-              structured workflows, translating UI/UX designs into interactive
-              interfaces while strengthening skills in problem-solving,
-              debugging, and writing maintainable, reusable code.
-            </p>
+            <div className="p-l">
+              Completed an intensive frontend bootcamp, gaining hands
+            </div>
+            <div className="p-l">
+              on experience in building responsive and scalable web
+            </div>
+            <div className="p-l">
+              applications using React, TypeScript, and Tailwind CSS,
+            </div>
+            <div className="p-l">
+              while developing projects with component-based
+            </div>
+            <div className="p-l">
+              {' '}
+              architecture and clean code principles. Collaborated in
+            </div>
+            <div className="p-l">
+              team environments using Git and structured workflows,
+            </div>
+            <div className="p-l">
+              translating UI/UX designs into interactive interfaces while
+            </div>
+            <div className="p-l">
+              strengthening skills in problem-solving, debugging, and
+            </div>
+            <div className="p-l">writing maintainable, reusable code.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -195,16 +230,32 @@ function Clients() {
               <h5 className="h5">
                 <b>Frontend Developer</b>
               </h5>
-              <p className="p-l">
-                Completed an intensive frontend bootcamp, gaining hands-on
-                experience in building responsive and scalable web applications
-                using React, TypeScript, and Tailwind CSS, while developing
-                projects with component-based architecture and clean code
-                principles. Collaborated in team environments using Git and
-                structured workflows, translating UI/UX designs into interactive
-                interfaces while strengthening skills in problem-solving,
-                debugging, and writing maintainable, reusable code.
-              </p>
+              <div className="p-l">
+                Completed an intensive frontend bootcamp, gaining hands
+              </div>
+              <div className="p-l">
+                on experience in building responsive and scalable web
+              </div>
+              <div className="p-l">
+                applications using React, TypeScript, and Tailwind CSS,
+              </div>
+              <div className="p-l">
+                while developing projects with component-based
+              </div>
+              <div className="p-l">
+                {' '}
+                architecture and clean code principles. Collaborated in
+              </div>
+              <div className="p-l">
+                team environments using Git and structured workflows,
+              </div>
+              <div className="p-l">
+                translating UI/UX designs into interactive interfaces while
+              </div>
+              <div className="p-l">
+                strengthening skills in problem-solving, debugging, and
+              </div>
+              <div className="p-l">writing maintainable, reusable code.</div>
             </AppearTitle>
           </div>
           <div className={styles.fourthEmpty} />
@@ -213,7 +264,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2021</AppearTitle>
+          <AppearTitle>Aug 2024 - Sep 2024</AppearTitle>
         </div>
       ) : null}
       <div
@@ -228,23 +279,37 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Company 3</h4>
+            <h4 className={clsx('h4', 'bold')}>Synepse Academy</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
-            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
+            <h5 className="h5">
+              <b>Frontend Developer</b>
+            </h5>
             <div className="p-l">
-              incididunt ut labore et dolore magna aliqua.
+              Developed responsive e-learning web interfaces designed toX
             </div>
-            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
             <div className="p-l">
-              exercitation ullamco laboris nisi ut aliquip
+              deliver a seamless and engaging user experience across both
             </div>
-            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
-            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
             <div className="p-l">
-              esse cillum dolore eu fugiat nulla pariatur.
+              desktop and mobile devices. Focused on creating intuitive
             </div>
+            <div className="p-l">
+              layouts and interactive components to support effective content
+            </div>
+            <div className="p-l">
+              delivery and user navigation. Integrated frontend components
+            </div>
+            <div className="p-l">
+              with backend APIs to enable dynamic data handling and improve
+            </div>
+            <div className="p-l">
+              overall application functionality. Ensured smooth communication
+            </div>
+            <div className="p-l">
+              between client and server while optimizing performance and
+            </div>
+            <div className="p-l">enhancing the overall user experience.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -269,17 +334,31 @@ function Clients() {
               <h5 className="h5">
                 <b>Frontend Developer</b>
               </h5>
-              <p className="p-l">
-                Developed responsive e-learning web interfaces designed to
+              <div className="p-l">
+                Developed responsive e-learning web interfaces designed toX
+              </div>
+              <div className="p-l">
                 deliver a seamless and engaging user experience across both
+              </div>
+              <div className="p-l">
                 desktop and mobile devices. Focused on creating intuitive
+              </div>
+              <div className="p-l">
                 layouts and interactive components to support effective content
+              </div>
+              <div className="p-l">
                 delivery and user navigation. Integrated frontend components
+              </div>
+              <div className="p-l">
                 with backend APIs to enable dynamic data handling and improve
+              </div>
+              <div className="p-l">
                 overall application functionality. Ensured smooth communication
+              </div>
+              <div className="p-l">
                 between client and server while optimizing performance and
-                enhancing the overall user experience.
-              </p>
+              </div>
+              <div className="p-l">enhancing the overall user experience.</div>
             </AppearTitle>
           </div>
         </>
