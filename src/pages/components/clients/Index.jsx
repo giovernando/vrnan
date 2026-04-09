@@ -101,15 +101,13 @@ function Clients() {
               <h4 className={clsx('h4', 'bold', styles.title)}>Codveda Technologies | India</h4>
             </AppearTitle>
             <AppearTitle>
-              <h5 className="h5"><b>Frontend Developer</b></h5>
+              <h5 className="h5">
+                <b>Frontend Developer</b>
+              </h5>
               <p className="p-l">
-                Worked as a Frontend Developer Intern at Codveda Technologies,
-                developing responsive and user-friendly web applications in a remote,
-                cross-cultural environment using React, TypeScript, and Tailwind CSS,
-                while collaborating with designers and backend developers to deliver
-                high-quality UI implementations. Contributed to code reviews, debugging,
-                and feature enhancements, applying clean code principles and component-based
-                architecture while strengthening skills in problem-solving and remote teamwork.
+                Worked as a Frontend Developer Intern at Codveda Technologies, developing responsive and user-friendly web applications in a remote, cross-cultural environment using React, TypeScript,
+                and Tailwind CSS, while collaborating with designers and backend developers to deliver high-quality UI implementations. Contributed to code reviews, debugging, and feature
+                enhancements, applying clean code principles and component-based architecture while strengthening skills in problem-solving and remote teamwork.
               </p>
             </AppearTitle>
           </div>
@@ -137,16 +135,13 @@ function Clients() {
             <h4 className={clsx('h4', 'bold')}>IDCamp Indosat Ooredoo Hutchison</h4>
           </AppearTitle>
           <AppearTitle>
-            <h5 className="h5"><b>Frontend Developer</b></h5>
+            <h5 className="h5">
+              <b>Frontend Developer</b>
+            </h5>
             <p className="p-l">
-              Completed an intensive frontend bootcamp,
-              gaining hands-on experience in building responsive
-              and scalable web applications using React, TypeScript,
-              and Tailwind CSS, while developing projects with component-based
-              architecture and clean code principles. Collaborated in team
-              environments using Git and structured workflows, translating UI/UX designs
-              into interactive interfaces while strengthening skills in problem-solving,
-              debugging, and writing maintainable, reusable code.
+              Completed an intensive frontend bootcamp, gaining hands-on experience in building responsive and scalable web applications using React, TypeScript, and Tailwind CSS, while developing
+              projects with component-based architecture and clean code principles. Collaborated in team environments using Git and structured workflows, translating UI/UX designs into interactive
+              interfaces while strengthening skills in problem-solving, debugging, and writing maintainable, reusable code.
             </p>
           </AppearTitle>
         </div>
@@ -166,16 +161,13 @@ function Clients() {
               <h4 className={clsx('h4', 'bold', styles.title)}>IDCamp Indosat Ooredoo Hutchison</h4>
             </AppearTitle>
             <AppearTitle>
-              <h5 className="h5"><b>Frontend Developer</b></h5>
+              <h5 className="h5">
+                <b>Frontend Developer</b>
+              </h5>
               <p className="p-l">
-                Completed an intensive frontend bootcamp,
-                gaining hands-on experience in building responsive
-                and scalable web applications using React, TypeScript,
-                and Tailwind CSS, while developing projects with component-based
-                architecture and clean code principles. Collaborated in team
-                environments using Git and structured workflows, translating UI/UX designs
-                into interactive interfaces while strengthening skills in problem-solving,
-                debugging, and writing maintainable, reusable code.
+                Completed an intensive frontend bootcamp, gaining hands-on experience in building responsive and scalable web applications using React, TypeScript, and Tailwind CSS, while developing
+                projects with component-based architecture and clean code principles. Collaborated in team environments using Git and structured workflows, translating UI/UX designs into interactive
+                interfaces while strengthening skills in problem-solving, debugging, and writing maintainable, reusable code.
               </p>
             </AppearTitle>
           </div>
@@ -230,16 +222,13 @@ function Clients() {
               <h4 className={clsx('h4', 'bold', styles.title)}>Synepse Academy</h4>
             </AppearTitle>
             <AppearTitle>
-              <h5 className="h5"><b>Frontend Developer</b></h5>
+              <h5 className="h5">
+                <b>Frontend Developer</b>
+              </h5>
               <p className="p-l">
-                Developed responsive e-learning web interfaces designed
-                to deliver a seamless and engaging user experience across
-                both desktop and mobile devices. Focused on creating intuitive
-                layouts and interactive components to support effective content delivery
-                and user navigation.
-                Integrated frontend components with backend APIs to enable dynamic data handling
-                and improve overall application functionality. Ensured smooth communication between
-                client and server while optimizing performance and enhancing the overall user experience.
+                Developed responsive e-learning web interfaces designed to deliver a seamless and engaging user experience across both desktop and mobile devices. Focused on creating intuitive layouts
+                and interactive components to support effective content delivery and user navigation. Integrated frontend components with backend APIs to enable dynamic data handling and improve
+                overall application functionality. Ensured smooth communication between client and server while optimizing performance and enhancing the overall user experience.
               </p>
             </AppearTitle>
           </div>

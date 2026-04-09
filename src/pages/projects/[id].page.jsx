@@ -20,10 +20,15 @@ function Page({ id }) {
   const isMobile = useIsMobile();
   const rightContainerRef = useRef();
   const leftContainerRef = useRef();
-  const [isLoading, setFluidColor] = useStore(useShallow((state) => [state.isLoading, state.setFluidColor]));
+  const [isLoading, setFluidColor] = useStore(
+    useShallow((state) => [state.isLoading, state.setFluidColor]),
+  );
   const windowSize = useWindowSize();
 
-  const projectIndex = useMemo(() => projects.findIndex((project) => project.id === id), [id]);
+  const projectIndex = useMemo(
+    () => projects.findIndex((project) => project.id === id),
+    [id],
+  );
   const currentProject = useMemo(() => projects[projectIndex], [projectIndex]);
 
   const updateCSSVariables = (project) => {
@@ -76,7 +81,7 @@ function Page({ id }) {
       });
       setFluidColor('#d7d7d4');
     };
-  }, [currentProject]);
+  }, [currentProject, setFluidColor]);
 
   const seo = useMemo(
     () => ({
@@ -100,7 +105,15 @@ function Page({ id }) {
     return (
       <>
         <CustomHead {...seo} />
-        <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '2rem' }}>
+        <div
+          style={{
+            height: '100vh',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '2rem',
+          }}
+        >
           Project not found
         </div>
       </>
@@ -118,7 +131,13 @@ function Page({ id }) {
           <ProjectImages project={currentProject} />
         </div>
       </section>
-      <NextProject nextProject={projectIndex === projects.length - 1 ? projects[0] : projects[projectIndex + 1]} />
+      <NextProject
+        nextProject={
+          projectIndex === projects.length - 1
+            ? projects[0]
+            : projects[projectIndex + 1]
+        }
+      />
     </>
   );
 }

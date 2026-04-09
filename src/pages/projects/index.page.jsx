@@ -17,7 +17,8 @@ import { useWindowSize } from '@darkroom.engineering/hamo';
 
 const seo = {
   title: 'Vrnan - Projects',
-  description: 'Explore my portfolio to see a range of frontend projects, from responsive websites to web applications. Discover my work with React, Nextjs, React three fiber, Electron and more.',
+  description:
+    'Explore my portfolio to see a range of frontend projects, from responsive websites to web applications. Discover my work with React, Nextjs, React three fiber, Electron and more.',
   keywords: [
     'Vrnan Projects',
     'Portfolio Showcase',
@@ -38,7 +39,6 @@ const seo = {
 
 function Page() {
   const isMobile = useIsMobile();
-
   const windowSize = useWindowSize();
   const rootRef = useRef();
   const projectRefs = useRef([]);
@@ -55,7 +55,8 @@ function Page() {
                 id: `projectRef-${index}`,
                 trigger: rootRef.current,
                 start: `top+=${windowSize.height * index}`,
-                end: () => `+=${(projectRefs.current.length - 2) * windowSize.height}`,
+                end: () =>
+                  `+=${(projectRefs.current.length - 2) * windowSize.height}`,
                 scrub: true,
                 scroller: document?.querySelector('main'),
                 invalidateOnRefresh: true,
@@ -83,19 +84,35 @@ function Page() {
       <section className={clsx(styles.titleContainer, 'layout-block-inner')}>
         <h1 className={clsx(styles.title, 'h1')}>All Projects</h1>
       </section>
-      <section ref={rootRef} className={clsx(styles.root, 'layout-block-inner')}>
+      <section
+        ref={rootRef}
+        className={clsx(styles.root, 'layout-block-inner')}
+      >
         <div className={styles.innerContainer}>
           {projects.map((project, index) => (
-            <Link aria-label={`Go ${project.title}`} id={project.id} key={project.id} scroll={false} href={project.link} className={clsx(styles.card)}>
+            <Link
+              aria-label={`Go ${project.title}`}
+              id={project.id}
+              key={project.id}
+              scroll={false}
+              href={project.link}
+              className={clsx(styles.card)}
+            >
               <div
                 style={
                   !isMobile
                     ? {
-                        height: index === projects.length - 1 ? '200svh' : `${200 + 100 * index}svh`,
+                        height:
+                          index === projects.length - 1
+                            ? '200svh'
+                            : `${200 + 100 * index}svh`,
                         top: index === 0 ? '0px' : '-100svh',
                       }
                     : {
-                        height: index === projects.length - 1 ? '100svh' : `${200 + 100 * index}svh`,
+                        height:
+                          index === projects.length - 1
+                            ? '100svh'
+                            : `${200 + 100 * index}svh`,
                         top: index === 0 ? '0px' : '-50svh',
                       }
                 }
@@ -107,7 +124,14 @@ function Page() {
                     <h3 className={clsx(styles.text, 'h3')}>{project.title}</h3>
                   </div>
                   <div className={styles.imageContainer}>
-                  <Image priority={index === 0} sizes="100%" src={project.img} fill style={{ objectFit: 'contain' }} alt={project.title} />
+                    <Image
+                      priority={index === 0}
+                      sizes="100%"
+                      src={project.img}
+                      fill
+                      style={{ objectFit: 'contain' }}
+                      alt={project.title}
+                    />
                   </div>
                 </div>
               </div>
@@ -120,7 +144,13 @@ function Page() {
                 <Image
                   priority={index === 0}
                   sizes="100%"
-                  className={index === 0 ? styles.firstCard : index === projects.length - 1 ? styles.lastCard : undefined}
+                  className={
+                    index === 0
+                      ? styles.firstCard
+                      : index === projects.length - 1
+                        ? styles.lastCard
+                        : undefined
+                  }
                   src={project.img}
                   fill
                   style={{ objectFit: 'contain' }}
