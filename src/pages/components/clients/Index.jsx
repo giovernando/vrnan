@@ -107,6 +107,61 @@ function Clients() {
           </div>
         </>
       ) : null}
+      {!isMobile ? <div className={styles.secondEmpty} /> : null}
+      {isMobile ? <div className={styles.mobileEmpty} /> : null}
+      {isMobile ? (
+        <div className={styles.mobileCount}>
+          <AppearTitle>Okt 2025 - Jan 2026</AppearTitle>
+        </div>
+      ) : null}
+      <div
+        ref={(el) => {
+          badgeRefs.current[1] = el;
+        }}
+        className={styles.second}
+      >
+        <Badge name="company2" />
+      </div>
+      {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
+      {isMobile ? (
+        <div className={styles.textMobile}>
+          <AppearTitle>
+            <h4 className={clsx('h4', 'bold')}>IDCamp Indosat Ooredoo Hutchison</h4>
+          </AppearTitle>
+          <AppearTitle>
+            <div className="p-l" style={{ marginBottom: '1rem' }}><b>Frontend Developer Trainee – [Frontend Developer]</b></div>
+            <div className="p-l" style={{ marginBottom: '1rem' }}>Completed an intensive bootcamp program focused on modern frontend development. Gained hands-on experience in building responsive and scalable web applications using technologies such as React, TypeScript, and Tailwind CSS.</div>
+            <div className="p-l" style={{ marginBottom: '1rem' }}>Developed multiple projects by implementing component-based architecture and applying clean code principles. Translated UI/UX designs into interactive user interfaces with attention to performance, accessibility, and cross-device compatibility.</div>
+            <div className="p-l" style={{ marginBottom: '1rem' }}>Collaborated in team-based environments using Git for version control and followed structured development workflows to simulate real-world software development practices.</div>
+            <div className="p-l">Strengthened problem-solving skills, debugging techniques, and the ability to write maintainable and reusable code in a fast-paced learning environment.</div>
+          </AppearTitle>
+        </div>
+      ) : null}
+      {!isMobile ? (
+        <>
+          <div
+            ref={(el) => {
+              textRefs.current[1] = el;
+            }}
+            className={styles.secondText}
+          >
+            <AppearTitle>
+              <h6 className="h6">Okt 2025 - Jan 2026</h6>
+            </AppearTitle>
+            <AppearTitle>
+              <h4 className={clsx('h4', 'bold', styles.title)}>IDCamp Indosat Ooredoo Hutchison</h4>
+            </AppearTitle>
+            <AppearTitle>
+              <div className="p-l" style={{ marginBottom: '1rem' }}><b>Frontend Developer Trainee – [Frontend Developer]</b></div>
+              <div className="p-l" style={{ marginBottom: '1rem' }}>Completed an intensive bootcamp program focused on modern frontend development. Gained hands-on experience in building responsive and scalable web applications using technologies such as React, TypeScript, and Tailwind CSS.</div>
+              <div className="p-l" style={{ marginBottom: '1rem' }}>Developed multiple projects by implementing component-based architecture and applying clean code principles. Translated UI/UX designs into interactive user interfaces with attention to performance, accessibility, and cross-device compatibility.</div>
+              <div className="p-l" style={{ marginBottom: '1rem' }}>Collaborated in team-based environments using Git for version control and followed structured development workflows to simulate real-world software development practices.</div>
+              <div className="p-l">Strengthened problem-solving skills, debugging techniques, and the ability to write maintainable and reusable code in a fast-paced learning environment.</div>
+            </AppearTitle>
+          </div>
+          <div className={styles.fourthEmpty} />
+        </>
+      ) : null}
     </section>
   );
 }
