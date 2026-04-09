@@ -176,31 +176,34 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Completed an intensive frontend bootcamp, gaining hands
+              Completed an intensive frontend bootcamp, gaining
             </div>
             <div className="p-l">
-              on experience in building responsive and scalable web
+              hands on experience in building responsive and
             </div>
             <div className="p-l">
-              applications using React, TypeScript, and Tailwind CSS,
+              scalable web applications using React, TypeScript,
             </div>
             <div className="p-l">
-              while developing projects with component-based
+              and Tailwind CSS, while developing projects with
             </div>
             <div className="p-l">
               {' '}
-              architecture and clean code principles. Collaborated in
+              component-based architecture and clean code
             </div>
             <div className="p-l">
-              team environments using Git and structured workflows,
+              principles. Collaborated in team environments using
             </div>
             <div className="p-l">
-              translating UI/UX designs into interactive interfaces while
+              Git and structured workflows, translating UI/UX
             </div>
             <div className="p-l">
-              strengthening skills in problem-solving, debugging, and
+              designs into interactive interfaces while strengthening
             </div>
-            <div className="p-l">writing maintainable, reusable code.</div>
+            <div className="p-l">
+              skills in problem-solving, debugging, and writing maintainable,
+              reusable code.
+            </div>
           </AppearTitle>
         </div>
       ) : null}
@@ -222,31 +225,34 @@ function Clients() {
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Completed an intensive frontend bootcamp, gaining hands
+                Completed an intensive frontend bootcamp, gaining
               </div>
               <div className="p-l">
-                on experience in building responsive and scalable web
+                hands on experience in building responsive and
               </div>
               <div className="p-l">
-                applications using React, TypeScript, and Tailwind CSS,
+                scalable web applications using React, TypeScript,
               </div>
               <div className="p-l">
-                while developing projects with component-based
+                and Tailwind CSS, while developing projects with
               </div>
               <div className="p-l">
                 {' '}
-                architecture and clean code principles. Collaborated in
+                component-based architecture and clean code
               </div>
               <div className="p-l">
-                team environments using Git and structured workflows,
+                principles. Collaborated in team environments using
               </div>
               <div className="p-l">
-                translating UI/UX designs into interactive interfaces while
+                Git and structured workflows, translating UI/UX
               </div>
               <div className="p-l">
-                strengthening skills in problem-solving, debugging, and
+                designs into interactive interfaces while strengthening
               </div>
-              <div className="p-l">writing maintainable, reusable code.</div>
+              <div className="p-l">
+                skills in problem-solving, debugging, and writing maintainable,
+                reusable code.
+              </div>
             </AppearTitle>
           </div>
           <div className={styles.fourthEmpty} />
@@ -274,30 +280,36 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Developed responsive e-learning web interfaces designed toX
+              Developed responsive e-learning web interfaces
             </div>
             <div className="p-l">
-              deliver a seamless and engaging user experience across both
+              designed toX deliver a seamless and engaging user
             </div>
             <div className="p-l">
-              desktop and mobile devices. Focused on creating intuitive
+              experience across both desktop and mobile devices.
             </div>
             <div className="p-l">
-              layouts and interactive components to support effective content
+              Focused on creating intuitive layouts and interactive
             </div>
             <div className="p-l">
-              delivery and user navigation. Integrated frontend components
+              components to support effective content delivery and
             </div>
             <div className="p-l">
-              with backend APIs to enable dynamic data handling and improve
+              user navigation. Integrated frontend components with
             </div>
             <div className="p-l">
-              overall application functionality. Ensured smooth communication
+              backend APIs to enable dynamic data handling and
             </div>
             <div className="p-l">
-              between client and server while optimizing performance and
+              improve overall application functionality. Ensured
             </div>
-            <div className="p-l">enhancing the overall user experience.</div>
+            <div className="p-l">
+              smooth communication between client and server while
+            </div>
+            <div className="p-l">
+              {' '}
+              optimizing performance and enhancing the overall user experience.
+            </div>
           </AppearTitle>
         </div>
       ) : null}
