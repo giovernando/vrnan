@@ -34,7 +34,7 @@ function Clients() {
               },
             })
             .to(textRef, {
-              top: index === 0 ? '10vw' : index === 1 ? '70vw' : '130vw',
+              top: `${10 + 30 * index + 5.5555556 * index}vw`,
             });
         });
       }
@@ -51,12 +51,12 @@ function Clients() {
   return (
     <section ref={rootRef} className={clsx(styles.root, 'layout-grid-inner')}>
       <h1 className={clsx(styles.sectionTitle, 'h1')}>
-        <AppearByWords>Experience</AppearByWords>
+        <AppearByWords>Clients</AppearByWords>
       </h1>
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>Dec 2025 - Feb 2026</AppearTitle>
+          <AppearTitle>2024</AppearTitle>
         </div>
       ) : null}
       <div
@@ -65,18 +65,23 @@ function Clients() {
         }}
         className={styles.first}
       >
-        <Badge name="company1" label="Codveda Technologies" />
+        <Badge name="company1" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Codveda Technologies, India</h4>
+            <h4 className={clsx('h4', 'bold')}>Company 1</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l" style={{ marginBottom: '1rem' }}><b>Frontend Developer Intern – Codveda Technologies (Remote)</b></div>
-            <div className="p-l" style={{ marginBottom: '1rem' }}>Worked as a Frontend Developer Intern at Codveda Technologies, contributing to the development of responsive and user-friendly web applications in a remote, cross-cultural environment. Built and optimized user interfaces using React, TypeScript, and Tailwind CSS, while collaborating with designers and backend developers to transform UI/UX designs into functional, high-quality implementations.</div>
-            <div className="p-l">Participated in code reviews, debugging, and feature enhancements to improve overall application performance and usability. Applied best practices such as component-based architecture, clean code principles, and separation of concerns, while strengthening skills in remote collaboration, problem-solving, and delivering solutions in a fast-paced development environment.</div>
+            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
+            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
+            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
+            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
+            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
+            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
+            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
+            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -90,15 +95,20 @@ function Clients() {
             className={styles.firstText}
           >
             <AppearTitle>
-              <h6 className="h6">Dec 2025 - Feb 2026</h6>
+              <h6 className="h6">2024</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Codveda Technologies, India</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Company 1</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l" style={{ marginBottom: '1rem' }}><b>Frontend Developer Intern – Codveda Technologies (Remote)</b></div>
-              <div className="p-l" style={{ marginBottom: '1rem' }}>Worked as a Frontend Developer Intern at Codveda Technologies, contributing to the development of responsive and user-friendly web applications in a remote, cross-cultural environment. Built and optimized user interfaces using React, TypeScript, and Tailwind CSS, while collaborating with designers and backend developers to transform UI/UX designs into functional, high-quality implementations.</div>
-              <div className="p-l">Participated in code reviews, debugging, and feature enhancements to improve overall application performance and usability. Applied best practices such as component-based architecture, clean code principles, and separation of concerns, while strengthening skills in remote collaboration, problem-solving, and delivering solutions in a fast-paced development environment.</div>
+              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
+              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
+              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
+              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
+              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
+              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
+              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
+              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
             </AppearTitle>
           </div>
         </>
@@ -107,7 +117,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>Okt 2025 - Jan 2026</AppearTitle>
+          <AppearTitle>2023</AppearTitle>
         </div>
       ) : null}
       <div
@@ -116,18 +126,23 @@ function Clients() {
         }}
         className={styles.second}
       >
-        <Badge name="company2" label="IDCamp" />
+        <Badge name="company2" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>IDCamp Indosat Ooredoo Hutchison</h4>
+            <h4 className={clsx('h4', 'bold')}>Company 2</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l" style={{ marginBottom: '1rem' }}><b>Frontend Developer Trainee – [Frontend Developer]</b></div>
-            <div className="p-l" style={{ marginBottom: '1rem' }}>Completed an intensive bootcamp program focused on modern frontend development, gaining hands-on experience in building responsive and scalable web applications using React, TypeScript, and Tailwind CSS. Developed multiple projects by applying component-based architecture and clean code principles, while translating UI/UX designs into interactive and user-friendly interfaces.</div>
-            <div className="p-l">Collaborated in team-based environments using Git and structured development workflows to simulate real-world practices. Strengthened skills in problem-solving, debugging, and writing maintainable, reusable code within a fast-paced learning environment.</div>
+            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
+            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
+            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
+            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
+            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
+            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
+            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
+            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -140,25 +155,29 @@ function Clients() {
             className={styles.secondText}
           >
             <AppearTitle>
-              <h6 className="h6">Okt 2025 - Jan 2026</h6>
+              <h6 className="h6">2023</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>IDCamp Indosat Ooredoo Hutchison</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Company 2</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l" style={{ marginBottom: '1rem' }}><b>Frontend Developer Trainee – [Frontend Developer]</b></div>
-              <div className="p-l" style={{ marginBottom: '1rem' }}>Completed an intensive bootcamp program focused on modern frontend development, gaining hands-on experience in building responsive and scalable web applications using React, TypeScript, and Tailwind CSS. Developed multiple projects by applying component-based architecture and clean code principles, while translating UI/UX designs into interactive and user-friendly interfaces.</div>
-              <div className="p-l">Collaborated in team-based environments using Git and structured development workflows to simulate real-world practices. Strengthened skills in problem-solving, debugging, and writing maintainable, reusable code within a fast-paced learning environment.</div>
+              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
+              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
+              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
+              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
+              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
+              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
+              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
+              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
             </AppearTitle>
           </div>
           <div className={styles.fourthEmpty} />
         </>
       ) : null}
-      {!isMobile ? <div className={styles.fifthEmpty} /> : null}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>Aug 2024 - Sep 2024</AppearTitle>
+          <AppearTitle>2021</AppearTitle>
         </div>
       ) : null}
       <div
@@ -167,23 +186,29 @@ function Clients() {
         }}
         className={styles.third}
       >
-        <Badge name="company3" label="Synepse Academy" />
+        <Badge name="company3" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Synepse Academy (Palembang)</h4>
+            <h4 className={clsx('h4', 'bold')}>Company 3</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l" style={{ marginBottom: '1rem' }}><b>Frontend Developer</b></div>
-            <div className="p-l" style={{ marginBottom: '1rem' }}>Developed responsive e-learning web interfaces designed to deliver a seamless and engaging user experience across both desktop and mobile devices. Focused on creating intuitive layouts and interactive components to support effective content delivery and user navigation.</div>
-            <div className="p-l">Integrated frontend components with backend APIs to enable dynamic data handling and improve overall application functionality. Ensured smooth communication between client and server while optimizing performance and enhancing the overall user experience.</div>
+            <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
+            <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
+            <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
+            <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
+            <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
+            <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
+            <div className="p-l">dolor in reprehenderit in voluptate velit</div>
+            <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
           </AppearTitle>
         </div>
       ) : null}
       {!isMobile ? (
         <>
+          <div className={styles.fifthEmpty} />
           <div
             ref={(el) => {
               textRefs.current[2] = el;
@@ -191,15 +216,20 @@ function Clients() {
             className={styles.thirdText}
           >
             <AppearTitle>
-              <h6 className="h6">Aug 2024 - Sep 2024</h6>
+              <h6 className="h6">2021</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Synepse Academy (Palembang)</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Company 3</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l" style={{ marginBottom: '1rem' }}><b>Frontend Developer</b></div>
-              <div className="p-l" style={{ marginBottom: '1rem' }}>Developed responsive e-learning web interfaces designed to deliver a seamless and engaging user experience across both desktop and mobile devices. Focused on creating intuitive layouts and interactive components to support effective content delivery and user navigation.</div>
-              <div className="p-l">Integrated frontend components with backend APIs to enable dynamic data handling and improve overall application functionality. Ensured smooth communication between client and server while optimizing performance and enhancing the overall user experience.</div>
+              <div className="p-l">Lorem ipsum dolor sit amet, consectetur</div>
+              <div className="p-l">adipiscing elit. Sed do eiusmod tempor</div>
+              <div className="p-l">incididunt ut labore et dolore magna aliqua.</div>
+              <div className="p-l">Ut enim ad minim veniam, quis nostrud</div>
+              <div className="p-l">exercitation ullamco laboris nisi ut aliquip</div>
+              <div className="p-l">ex ea commodo consequat. Duis aute irure</div>
+              <div className="p-l">dolor in reprehenderit in voluptate velit</div>
+              <div className="p-l">esse cillum dolore eu fugiat nulla pariatur.</div>
             </AppearTitle>
           </div>
         </>
