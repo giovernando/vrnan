@@ -3,7 +3,7 @@ import * as THREE from 'three';
 
 import { BallCollider, CuboidCollider, Physics, RigidBody, useRopeJoint, useSphericalJoint } from '@react-three/rapier';
 import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
-import { PerspectiveCamera, View, useGLTF, useTexture } from '@react-three/drei';
+import { PerspectiveCamera, View, useGLTF, useTexture, Text } from '@react-three/drei';
 import { extend, useFrame } from '@react-three/fiber';
 import { useRef, useState } from 'react';
 
@@ -12,7 +12,7 @@ import useScroll from '@src/hooks/useScroll';
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
-export default function Badge({ name }) {
+export default function Badge({ name, label }) {
   const el = useRef();
 
   const intersection = useIntersection(el, {
@@ -29,7 +29,7 @@ export default function Badge({ name }) {
       <PerspectiveCamera makeDefault position={[0, 0, 10]} fov={25} />
       <ambientLight intensity={Math.PI} />
       <Physics interpolate gravity={[0, -40, 0]} timeStep={1 / 60}>
-        <Band name={name} intersected={intersection?.isIntersecting} />
+        <Band name={name} label={label} intersected={intersection?.isIntersecting} />
       </Physics>
       <ambientLight intensity={1.3} />
 
@@ -56,7 +56,7 @@ export default function Badge({ name }) {
   );
 }
 
-function Band({ maxSpeed = 50, minSpeed = 10, name, intersected }) {
+function Band({ maxSpeed = 50, minSpeed = 10, name, label, intersected }) {
   const band = useRef();
   const fixed = useRef();
   const j1 = useRef();
@@ -142,6 +142,22 @@ function Band({ maxSpeed = 50, minSpeed = 10, name, intersected }) {
             </mesh>
             <mesh geometry={nodes.clip.geometry} material={materials.metal} material-roughness={0.3} />
             <mesh geometry={nodes.clamp.geometry} material={materials.metal} />
+            {label && (
+              <Text
+                position={[0, 0.5, 0.015]}
+                fontSize={0.075}
+                fontWeight="bold"
+                color="#ffffff"
+                outlineWidth={0.002}
+                outlineColor="#000000"
+                anchorX="center"
+                anchorY="middle"
+                maxWidth={0.6}
+                textAlign="center"
+              >
+                {label}
+              </Text>
+            )}
           </group>
         </RigidBody>
       </group>

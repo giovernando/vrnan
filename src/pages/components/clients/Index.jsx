@@ -65,7 +65,7 @@ function Clients() {
         }}
         className={styles.first}
       >
-        <Badge name="company1" />
+        <Badge name="company1" label="Codveda Technologies" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
       {isMobile ? (
@@ -116,7 +116,7 @@ function Clients() {
         }}
         className={styles.second}
       >
-        <Badge name="company2" />
+        <Badge name="company2" label="IDCamp" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
       {isMobile ? (
