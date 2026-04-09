@@ -42,7 +42,7 @@ function Overview() {
       <div className={styles.desc}>
         {!isMobile ? (
           <AppearTitle key="desktop-overview">
-            <h6 className="h6">Hey there! I&apos;m a 26-year-old front-end developer from Palembang, Sumatera Selatan with a </h6>
+            <h6 className="h6">Hey there! I&apos;m a 22-year-old front-end developer from Palembang, Sumatera Selatan with a </h6>
             <h6 className="h6">passion for crafting amazing digital experiences. I studied software</h6>
             <h6 className="h6">engineering to deepen my understanding of how to build sleek and </h6>
             <h6 className="h6">efficient websites and apps.</h6>
@@ -57,7 +57,7 @@ function Overview() {
           </AppearTitle>
         ) : (
           <AppearTitle key="mobile-overview">
-            <h6 className="h6">Hey there! I&apos;m a 26-year-old front-end developer from Palembang, Sumatera Selatan </h6>
+            <h6 className="h6">Hey there! I&apos;m a 22-year-old front-end developer from Palembang, Sumatera Selatan </h6>
             <h6 className="h6">with a passion for crafting amazing digital experiences. I studied </h6>
             <h6 className="h6">software engineering to deepen my understanding of how to </h6>
             <h6 className="h6">build sleek and efficient websites and apps.</h6>
