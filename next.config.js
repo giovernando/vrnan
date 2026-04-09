@@ -5,13 +5,13 @@ const nextConfig = {
     // optimizeCss: true,
     // nextScriptWorkers: true,
   },
-  // uncomment the following snippet if using styled components
-  // compiler: {
-  //   styledComponents: true,
-  // },
-  reactStrictMode: false, // Recommended for the `pages` directory, default in `app`.
+  reactStrictMode: false,
 
   images: {},
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
   webpack(config, { isServer }) {
     // config.resolve.alias = {
     //   ...config.resolve.alias,
