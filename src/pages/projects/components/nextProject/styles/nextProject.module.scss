@@ -135,7 +135,7 @@
             }
             > img {
               box-shadow: 0 0 0 0.01vw rgb(40, 40, 43, 0.3);
-              object-fit: fill;
+              object-fit: contain;
               @include mobile {
                 border-radius: calc(var(--layout-columns-gap) * 0.25);
               }
@@ -163,7 +163,7 @@
           @include mobile {
             border-radius: calc(var(--layout-columns-gap) * 0.5);
           }
-          object-fit: cover;
+          object-fit: contain;
         }
       }
     }
