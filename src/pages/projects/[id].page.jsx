@@ -24,7 +24,7 @@ function Page({ id }) {
   const windowSize = useWindowSize();
 
   const projectIndex = useMemo(() => projects.findIndex((project) => project.id === id), [id]);
-  const currentProject = useMemo(() => projects[projectIndex], [projectIndex]);
+  const currentProject = useMemo(() => projects[projectIndex], [projectIndex]);\n\n  if (!currentProject) {\n    return <div>Project not found</div>;\n  }
 
   const updateCSSVariables = (project) => {
     gsap.set('html', {
@@ -80,10 +80,10 @@ function Page({ id }) {
 
   const seo = useMemo(
     () => ({
-      title: `Vrnan - ${currentProject.title} Project`,
-      description: `Check out my work on the ${currentProject.title} project, collaborating with ${currentProject.company}, where I enhanced frontend development with responsive design and optimized user interactions.`,
+      title: `Vrnan - ${currentProject?.title ?? 'Unknown Project'} Project`,
+      description: `Check out my work on the ${currentProject?.title ?? 'Unknown Project'} project, collaborating with ${currentProject?.company ?? 'Unknown Company'}, where I enhanced frontend development with responsive design and optimized user interactions.`,
       keywords: [
-        `${currentProject.title} project`,
+        `${currentProject?.title ?? 'Unknown Project'} project`,
         `${currentProject.title} development`,
         `${currentProject.company} collaboration`,
         `Gio Vernando ${currentProject.title}`,
