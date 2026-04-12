@@ -1,19 +1,19 @@
 const projects = [
   {
     id: 'project3',
-    title: 'Kedai Sepatu',
+    title: 'Soda 3D Website',
     img: '/project3/project3.png',
     link: '/projects/project3',
-    date: '2024',
-    liveLink: 'https://kedai-sepatu.vercel.app/',
+    date: '2026',
+    liveLink: 'https://soda-tan-psi.vercel.app/',
     company: 'Personal Project',
-    primary: '#2D2D2D',
-    accentColor: '#FCFBF7',
-    secondary: '#F2EEE7',
-    fillColor: '#F2F3F4',
-    menuColor: 'gold',
-    menuFontColor: '#2D2D2D',
-    fluidColor: '#0028FF',
+    primary: '#1B2040',
+    accentColor: '#D4F97F',
+    secondary: '#F0F8E8',
+    fillColor: '#E8F5D4',
+    menuColor: '#FF6B35',
+    menuFontColor: '#FFFFFF',
+    fluidColor: '#FF6B35',
     images: [
       {
         src: '/project3/project3.png',
@@ -22,9 +22,9 @@ const projects = [
       },
     ],
     desc: [
-      'Kedai Sepatu is a modern e-commerce web application designed to provide a seamless and user-friendly online shopping experience for footwear. The platform allows users to explore a curated collection of shoes, ranging from casual to sporty styles, through a clean and interactive interface.',
-      'The website features product catalog browsing, search functionality, and a fully responsive design to ensure accessibility across desktop and mobile devices. It is built with a strong focus on performance, usability, and intuitive UI/UX to enhance user engagement and conversion.',
-      'This project was developed using modern web technologies such as React, TypeScript, and Tailwind CSS, with a clean architecture approach that separates UI and business logic to ensure scalability and maintainability.',
+      'Soda merupakan aplikasi web interaktif yang dikembangkan dengan konsep modern SPA (Single Page Application), menghadirkan pengalaman browsing yang cepat, ringan, dan tanpa hambatan.',
+      'Dengan fitur autentikasi pengguna dan sistem navigasi dinamis, aplikasi ini memungkinkan pengguna untuk mengakses berbagai fitur secara efisien dalam satu halaman terintegrasi.',
+      'Fokus utama pengembangan terletak pada performa, clean UI, serta pengalaman pengguna yang intuitif, menjadikan Soda sebagai representasi implementasi teknologi web modern yang scalable dan user-friendly.',
     ],
   },
 
