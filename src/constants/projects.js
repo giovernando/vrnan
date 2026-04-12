@@ -49,21 +49,6 @@ const projects = [
         tag: 'big',
         isRight: false,
       },
-      {
-        src: '/project1/2.webp',
-        tag: 'small',
-        isRight: true,
-      },
-      {
-        src: '/project1/3.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project1/4.webp',
-        tag: 'small',
-        isRight: false,
-      },
     ],
     desc: [
       'Developed a Coffee Shop Progressive Web App using React and TypeScript with modern frontend architecture.',
