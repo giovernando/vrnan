@@ -22,9 +22,9 @@ const projects = [
       },
     ],
     desc: [
-      'Soda merupakan aplikasi web interaktif yang dikembangkan dengan konsep modern SPA (Single Page Application), menghadirkan pengalaman browsing yang cepat, ringan, dan tanpa hambatan.',
-      'Dengan fitur autentikasi pengguna dan sistem navigasi dinamis, aplikasi ini memungkinkan pengguna untuk mengakses berbagai fitur secara efisien dalam satu halaman terintegrasi.',
-      'Fokus utama pengembangan terletak pada performa, clean UI, serta pengalaman pengguna yang intuitif, menjadikan Soda sebagai representasi implementasi teknologi web modern yang scalable dan user-friendly.',
+      'Soda is an interactive web application developed using the modern SPA (Single Page Application) concept, delivering a browsing experience that is fast, lightweight, and seamless.',
+      'Featuring user authentication and a dynamic navigation system, this application allows users to efficiently access various features within a single integrated page.',
+      'The primary development focus lies in performance, clean UI, and an intuitive user experience, positioning Soda as a representation of modern web technology implementation that is both scalable and user-friendly.',
     ],
   },
 
