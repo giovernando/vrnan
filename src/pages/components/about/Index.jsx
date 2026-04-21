@@ -42,7 +42,14 @@ function About() {
 
   const renderImageContainer = () => (
     <div className={styles.imageContainer}>
-      <Image priority src="/giats/front.webp" sizes="100%" fill style={{ objectFit: 'cover' }} alt="Gio Vernando" />
+      <Image
+        priority
+        src="/giats/front.webp"
+        sizes="100%"
+        fill
+        style={{ objectFit: 'cover' }}
+        alt="Gio Vernando"
+      />
     </div>
   );
 
@@ -59,28 +66,63 @@ function About() {
         {isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapper)} ref={animatedImageRef}>
           <AppearTitle>
-            <div className="p-l">“My solo learning journey as a self-taught</div>
+            <div className="p-l">
+              “My solo learning journey as a self-taught
+            </div>
             <div className="p-l">developer empowers me to solve problems</div>
-            <div className="p-l">creatively and efficiently, supporting the</div>
-            <div className="p-l">successful completion of your project goals”</div>
+            <div className="p-l">
+              creatively and efficiently, supporting the
+            </div>
+            <div className="p-l">
+              successful completion of your project goals”
+            </div>
           </AppearTitle>
         </div>
         {!isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapperBottom)}>
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
-              <h6 className="h6">A passionate front-end developer hailing from Palembang, Sumatera Selatan.</h6>
-              <h6 className="h6">With a strong eye for design and a dedication to</h6>
-              <h6 className="h6">creating seamless user experiences. I specialize in</h6>
-              <h6 className="h6">bringing web applications to life with clean and efficient</h6>
-              <h6 className="h6">code.</h6>
+              <h6 className="h6">
+                I'm a Frontend Developer with hands on experience in
+              </h6>
+              <h6 className="h6">
+                building responsive web applications using React.js,
+              </h6>
+              <h6 className="h6">
+                Next.js, and TypeScript.Experienced in consuming
+              </h6>
+              <h6 className="h6">
+                REST APIs, developing reusable components,and{' '}
+              </h6>
+              <h6 className="h6">
+                collaborating in remote, cross functional teams.{' '}
+              </h6>
+              <h6 className="h6">
+                Strong foundation from international internship and{' '}
+              </h6>
+              <h6 className="h6">intensive bootcamp programs. </h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
-              <h6 className="h6"> A passionate front-end developer hailing from Palembang, Sumatera Selatan. With a</h6>
-              <h6 className="h6">strong eye for design and a dedication to creating seamless</h6>
-              <h6 className="h6">user experiences. I specialize in bringing web applications to life</h6>
-              <h6 className="h6">with clean and efficient code.</h6>
+              <h6 className="h6">
+                I'm a Frontend Developer with hands on experience in
+              </h6>
+              <h6 className="h6">
+                building responsive web applications using React.js,
+              </h6>
+              <h6 className="h6">
+                Next.js, and TypeScript.Experienced in consuming
+              </h6>
+              <h6 className="h6">
+                REST APIs, developing reusable components,and{' '}
+              </h6>
+              <h6 className="h6">
+                collaborating in remote, cross functional teams.{' '}
+              </h6>
+              <h6 className="h6">
+                Strong foundation from international internship and{' '}
+              </h6>
+              <h6 className="h6">intensive bootcamp programs. </h6>
             </AppearTitle>
           )}
           <div className={clsx(styles.buttonContainer)}>
