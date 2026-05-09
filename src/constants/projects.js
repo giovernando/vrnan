@@ -31,11 +31,11 @@ const projects = [
   {
     id: 'project1',
     title: 'Coffee Shop',
-    img: '/project1/1.webp',
+    img: '/project1/project-v1.webp',
     link: '/projects/project1',
-    date: '2025 Desember',
+    date: '2026 May',
     company: 'Personal Project',
-    liveLink: 'https://kopi-klasik.vercel.app/',
+    liveLink: 'https://memory-three-eta.vercel.app/',
     primary: '#000000',
     accentColor: '#f0f4f1',
     secondary: '#F9F9F9',
@@ -45,15 +45,14 @@ const projects = [
     fluidColor: '#FF573E',
     images: [
       {
-        src: '/project1/1.webp',
+        src: '/project1/project-v1.webp',
         tag: 'big',
         isRight: false,
       },
     ],
     desc: [
-      'Developed a Coffee Shop Progressive Web App using React and TypeScript with modern frontend architecture.',
-      'Implemented responsive UI with Tailwind CSS, state management using Zustand, and API data handling with React Query.',
-      'Integrated Supabase for backend services and authentication while building reusable components and admin dashboard features.',
+      'A modern website for Memory Coffee Shop, designed to deliver an elegant end-to-end customer experience. Built with Next.js 16 (App Router) and React 19, the website features several functional pages: a landing page with Hero, Philosophy, Featured Products, Gallery, Testimonials, and Editorial sections; a Menu page to showcase products; a Reservation page for table booking; a Contact page; and an Admin panel for content management.',
+      'The backend is powered by Supabase for database and authentication, with a UI built on top of shadcn/ui + Radix UI components, styled with Tailwind CSS v4, and enriched with smooth animations via Framer Motion. Image performance is optimized using browser-image-compression and Sharp.',
     ],
   },
   {
@@ -61,7 +60,7 @@ const projects = [
     title: 'Verflix (Streaming Vidio)',
     img: '/project2/project2.png',
     link: '/projects/project2',
-    date: '2024',
+    date: '2025 September',
     company: 'Personal Project',
     liveLink: 'https://verflix-seven.vercel.app/',
     primary: '#0e0063',
@@ -79,7 +78,7 @@ const projects = [
       },
     ],
     desc: [
-      'Developed a video streaming Progressive Web App (PWA) inspired by Netflix using React and TypeScript with a modern frontend architecture.',
+      'Developed a video streaming inspired by Netflix using React and TypeScript with a modern frontend architecture.',
       'Implemented a responsive and interactive UI using Tailwind CSS, along with state management using Zustand and efficient data fetching with React Query.',
       'Integrated Supabase for backend services, including authentication, database management, and real-time features, while building reusable components and implementing features such as video search, watchlist (My List), and user notification system.',
     ],
