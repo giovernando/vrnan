@@ -5,7 +5,7 @@ const projectsLinks = [
   },
   {
     title: 'Project 4',
-    href: '/projects/project4',
+    href: '/projects/project1',
   },
   {
     title: 'Project 2',
