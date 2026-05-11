@@ -83,46 +83,49 @@ function About() {
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
               <h6 className="h6">
-                I'm a Frontend Developer with hands on experience in
+                I’m a Web Engineer with a proven track record in
               </h6>
               <h6 className="h6">
-                building responsive web applications using React.js,
+                developing digital platforms using React, Next.js,
               </h6>
               <h6 className="h6">
-                Next.js, and TypeScript.Experienced in consuming
+                TypeScript. I bridge the gap between secure Supabase
               </h6>
               <h6 className="h6">
-                REST APIs, developing reusable components,and{' '}
+                architecture and seamless user experiences.{' '}
               </h6>
               <h6 className="h6">
-                collaborating in remote, cross functional teams.{' '}
+                Backed by international internship experience,{' '}
               </h6>
               <h6 className="h6">
-                Strong foundation from international internship and{' '}
+                I focus on building performant, clean-coded{' '}
               </h6>
-              <h6 className="h6">intensive bootcamp programs. </h6>
+              <h6 className="h6">web solutions that are optimized for growth. </h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
               <h6 className="h6">
-                I'm a Frontend Developer with hands on experience in
+                I’m a Web Engineer with a proven track record in
               </h6>
               <h6 className="h6">
-                building responsive web applications using React.js,
+                developing digital platforms using React, Next.js,
               </h6>
               <h6 className="h6">
-                Next.js, and TypeScript.Experienced in consuming
+                TypeScript. I bridge the gap between secure Supabase
               </h6>
               <h6 className="h6">
-                REST APIs, developing reusable components,and{' '}
+                architecture and seamless user experiences.{' '}
               </h6>
               <h6 className="h6">
-                collaborating in remote, cross functional teams.{' '}
+                Backed by international internship experience,{' '}
+              </h6>
+              <h6 className="h6">
+                I focus on building performant, clean-coded{' '}
               </h6>
               <h6 className="h6">
                 Strong foundation from international internship and{' '}
               </h6>
-              <h6 className="h6">intensive bootcamp programs. </h6>
+              <h6 className="h6">web solutions that are optimized for growth. </h6>
             </AppearTitle>
           )}
           <div className={clsx(styles.buttonContainer)}>
