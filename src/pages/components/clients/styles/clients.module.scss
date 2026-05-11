@@ -162,12 +162,12 @@
     top: 55vw;
     flex-direction: column;
     gap: var(--layout-columns-gap);
-    grid-column: 1 / 6;
+    grid-column: 6 / 11;
     background-color: var(--white);
   }
   .third {
     position: relative;
-    grid-column: 6 / 11;
+    grid-column: 1 / 6;
     height: 30vw;
     margin-top: calc(var(--layout-columns-gap) * 4);
     border-radius: var(--layout-columns-gap);
@@ -196,7 +196,23 @@
   }
   .fourthEmpty {
     position: relative;
-    grid-column: 1 / 6;
+    grid-column: 6 / 17;
+    box-shadow: 0 0 0 calc(var(--layout-columns-gap) * 0.15) var(--white);
+
+    background-color: var(--white);
+    &:before {
+      z-index: 1;
+      content: '';
+      background-color: var(--white);
+      width: var(--layout-columns-gap);
+      height: 100%;
+      position: absolute;
+      left: calc(var(--layout-columns-gap) * -1);
+    }
+  }
+  .fifthEmpty {
+    position: relative;
+    grid-column: 1 / 12;
     box-shadow: 0 0 0 calc(var(--layout-columns-gap) * 0.15) var(--white);
 
     background-color: var(--white);
@@ -210,22 +226,6 @@
       right: calc(var(--layout-columns-gap) * -1);
     }
   }
-  .fifthEmpty {
-    position: relative;
-    grid-column: 11 / 17;
-    box-shadow: 0 0 0 calc(var(--layout-columns-gap) * 0.15) var(--white);
-
-    background-color: var(--white);
-    &:after {
-      z-index: 1;
-      content: '';
-      background-color: var(--white);
-      width: var(--layout-columns-gap);
-      height: 100%;
-      position: absolute;
-      left: calc(var(--layout-columns-gap) * -1);
-    }
-  }
   .thirdText {
     z-index: 2;
     position: absolute;
@@ -233,7 +233,46 @@
     top: 92vw;
     flex-direction: column;
     gap: var(--layout-columns-gap);
+    grid-column: 7 / 12;
+    background-color: var(--white);
+  }
+  .fourth {
+    position: relative;
     grid-column: 12 / 17;
+    height: 30vw;
+    margin-top: calc(var(--layout-columns-gap) * 4);
+    border-radius: var(--layout-columns-gap);
+    box-shadow: 0 0 0 calc(var(--layout-columns-gap) * 1) var(--white);
+    @include mobile {
+      grid-column: 2 / 7;
+      height: 90vw;
+      margin-top: 0px;
+      border-radius: calc(var(--layout-columns-gap) * 0.5);
+      box-shadow: 0 0 0 calc(var(--layout-columns-gap) * 0.5) var(--white);
+    }
+    &:before {
+      @include mobile {
+        content: none;
+      }
+      box-shadow: 0 0 0 calc(var(--layout-columns-gap) * 0.15) var(--white);
+
+      z-index: 1;
+      content: '';
+      background-color: var(--white);
+      width: 100%;
+      height: calc(var(--layout-columns-gap) * 4);
+      position: absolute;
+      top: calc(var(--layout-columns-gap) * -4);
+    }
+  }
+  .fourthText {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    top: 128vw;
+    flex-direction: column;
+    gap: var(--layout-columns-gap);
+    grid-column: 6 / 11;
     background-color: var(--white);
   }
 }
