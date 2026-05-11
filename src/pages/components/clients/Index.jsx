@@ -59,6 +59,8 @@ function Clients() {
       <h1 className={clsx(styles.sectionTitle, 'h1')}>
         <AppearByWords>Experience</AppearByWords>
       </h1>
+
+      {/* ==================== 1st EXPERIENCE (SMA PGRI 4 Palembang) ==================== */}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
@@ -70,6 +72,109 @@ function Clients() {
           badgeRefs.current[0] = el;
         }}
         className={styles.first}
+      >
+        <Badge name="company4" />
+      </div>
+      {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
+      {isMobile ? (
+        <div className={styles.textMobile}>
+          <AppearTitle>
+            <h4 className={clsx('h4', 'bold')}>SMA PGRI 4 Palembang | Indonesia</h4>
+          </AppearTitle>
+          <AppearTitle>
+            <h6 className={clsx('h6', 'medium')} style={{ margin: '0.5rem 0 0.40rem 0' }}>Full-Stack Engineer (Freelance)</h6>
+          </AppearTitle>
+          <AppearTitle>
+            <div className="p-l">
+              Worked as a Full-Stack Engineer to build an integrated
+            </div>
+            <div className="p-l">
+              school portal, modernizing the institution&apos;s digital
+            </div>
+            <div className="p-l">
+              presence and streamlining data management. Engineered
+            </div>
+            <div className="p-l">
+              a scalable management system using React.js, TypeScript
+            </div>
+            <div className="p-l">
+              and Supabase,featuring a secure database with Row Level
+            </div>
+            <div className="p-l">
+              Security (RLS). Developed a custom CMS that allows staff
+            </div>
+            <div className="p-l">
+              to update content in real-time and managed the entire
+            </div>
+            <div className="p-l">
+              deployment lifecycle via Vercel, custom domain and SSL configuration.
+            </div>
+          </AppearTitle>
+        </div>
+      ) : null}
+      {!isMobile ? (
+        <>
+          <div className={styles.firstEmpty} />
+          <div
+            ref={(el) => {
+              textRefs.current[0] = el;
+            }}
+            className={styles.firstText}
+          >
+            <AppearTitle>
+              <h6 className="h6">2026</h6>
+            </AppearTitle>
+            <AppearTitle>
+              <h4 className={clsx('h4', 'bold', styles.title)}>
+                SMA PGRI 4 Palembang | Indonesia
+              </h4>
+            </AppearTitle>
+            <AppearTitle>
+              <h6 className={clsx('h6', 'medium')} style={{ margin: '0.5rem 0 0.40rem 0' }}>Full-Stack Engineer (Freelance)</h6>
+            </AppearTitle>
+            <AppearTitle>
+              <div className="p-l">
+                Worked as a Full-Stack Engineer to build an integrated
+              </div>
+              <div className="p-l">
+                school portal, modernizing the institution&apos;s digital
+              </div>
+              <div className="p-l">
+                presence and streamlining data management. Engineered
+              </div>
+              <div className="p-l">
+                a scalable management system using React.js, TypeScript
+              </div>
+              <div className="p-l">
+                and Supabase,featuring a secure database with Row Level
+              </div>
+              <div className="p-l">
+                Security (RLS). Developed a custom CMS that allows staff
+              </div>
+              <div className="p-l">
+                to update content in real-time and managed the entire
+              </div>
+              <div className="p-l">
+                deployment lifecycle via Vercel, custom domain and SSL configuration.
+              </div>
+            </AppearTitle>
+          </div>
+        </>
+      ) : null}
+
+      {/* ==================== 2nd EXPERIENCE (Codveda Technologies) ==================== */}
+      {!isMobile ? <div className={styles.secondEmpty} /> : null}
+      {isMobile ? <div className={styles.mobileEmpty} /> : null}
+      {isMobile ? (
+        <div className={styles.mobileCount}>
+          <AppearTitle>2026</AppearTitle>
+        </div>
+      ) : null}
+      <div
+        ref={(el) => {
+          badgeRefs.current[1] = el;
+        }}
+        className={styles.second}
       >
         <Badge name="company1" />
       </div>
@@ -111,12 +216,11 @@ function Clients() {
       ) : null}
       {!isMobile ? (
         <>
-          <div className={styles.firstEmpty} />
           <div
             ref={(el) => {
-              textRefs.current[0] = el;
+              textRefs.current[1] = el;
             }}
-            className={styles.firstText}
+            className={styles.secondText}
           >
             <AppearTitle>
               <h6 className="h6">2026</h6>
@@ -157,7 +261,8 @@ function Clients() {
           </div>
         </>
       ) : null}
-      {!isMobile ? <div className={styles.secondEmpty} /> : null}
+
+      {/* ==================== 3rd EXPERIENCE (IDCamp Indosat) ==================== */}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
@@ -166,9 +271,9 @@ function Clients() {
       ) : null}
       <div
         ref={(el) => {
-          badgeRefs.current[1] = el;
+          badgeRefs.current[2] = el;
         }}
-        className={styles.second}
+        className={styles.third}
       >
         <Badge name="company2" />
       </div>
@@ -218,11 +323,12 @@ function Clients() {
       ) : null}
       {!isMobile ? (
         <>
+          <div className={styles.fourthEmpty} />
           <div
             ref={(el) => {
-              textRefs.current[1] = el;
+              textRefs.current[2] = el;
             }}
-            className={styles.secondText}
+            className={styles.thirdText}
           >
             <AppearTitle>
               <h6 className="h6">2025</h6>
@@ -267,9 +373,11 @@ function Clients() {
               </div>
             </AppearTitle>
           </div>
-          <div className={styles.fourthEmpty} />
         </>
       ) : null}
+
+      {/* ==================== 4th EXPERIENCE (Synepse Academy) ==================== */}
+      {!isMobile ? <div className={styles.fifthEmpty} /> : null}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
@@ -278,9 +386,9 @@ function Clients() {
       ) : null}
       <div
         ref={(el) => {
-          badgeRefs.current[2] = el;
+          badgeRefs.current[3] = el;
         }}
-        className={styles.third}
+        className={styles.fourth}
       >
         <Badge name="company3" />
       </div>
@@ -330,12 +438,11 @@ function Clients() {
       ) : null}
       {!isMobile ? (
         <>
-          <div className={styles.fifthEmpty} />
           <div
             ref={(el) => {
-              textRefs.current[2] = el;
+              textRefs.current[3] = el;
             }}
-            className={styles.thirdText}
+            className={styles.fourthText}
           >
             <AppearTitle>
               <h6 className="h6">2024</h6>
