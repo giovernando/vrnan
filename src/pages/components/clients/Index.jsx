@@ -80,6 +80,9 @@ function Clients() {
             <h4 className={clsx('h4', 'bold')}>Codveda Technologies | India</h4>
           </AppearTitle>
           <AppearTitle>
+            <h6 className={clsx('h6', 'medium')} style={{ margin: '0.5rem 0 0.40rem 0' }}>Frontend Developer Intern (Remote)</h6>
+          </AppearTitle>
+          <AppearTitle>
             <div className="p-l">
               Worked as a Frontend Developer Intern at Codveda
             </div>
@@ -122,6 +125,9 @@ function Clients() {
               <h4 className={clsx('h4', 'bold', styles.title)}>
                 Codveda Technologies | India
               </h4>
+            </AppearTitle>
+            <AppearTitle>
+              <h6 className={clsx('h6', 'medium')} style={{ margin: '0.5rem 0 0.40rem 0' }}>Frontend Developer Intern (Remote)</h6>
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
@@ -175,6 +181,9 @@ function Clients() {
             </h4>
           </AppearTitle>
           <AppearTitle>
+            <h6 className={clsx('h6', 'medium')} style={{ margin: '0.5rem 0 0.40rem 0' }}>Frontend Web Developer</h6>
+          </AppearTitle>
+          <AppearTitle>
             <div className="p-l">
               Completed an intensive frontend bootcamp, gaining
             </div>
@@ -222,6 +231,9 @@ function Clients() {
               <h4 className={clsx('h4', 'bold', styles.title)}>
                 IDCamp Indosat Ooredoo Hutchison
               </h4>
+            </AppearTitle>
+            <AppearTitle>
+              <h6 className={clsx('h6', 'medium')} style={{ margin: '0.5rem 0 0.40rem 0' }}>Frontend Web Developer</h6>
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
@@ -279,6 +291,9 @@ function Clients() {
             <h4 className={clsx('h4', 'bold')}>Synepse Academy</h4>
           </AppearTitle>
           <AppearTitle>
+            <h6 className={clsx('h6', 'medium')} style={{ margin: '0.5rem 0 0.40rem 0' }}>Frontend Developer Intern</h6>
+          </AppearTitle>
+          <AppearTitle>
             <div className="p-l">
               Developed responsive e-learning web interfaces
             </div>
@@ -329,6 +344,9 @@ function Clients() {
               <h4 className={clsx('h4', 'bold', styles.title)}>
                 Synepse Academy
               </h4>
+            </AppearTitle>
+            <AppearTitle>
+              <h6 className={clsx('h6', 'medium')} style={{ margin: '0.5rem 0 0.40rem 0' }}>Frontend Developer Intern</h6>
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
