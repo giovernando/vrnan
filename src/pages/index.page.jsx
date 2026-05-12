@@ -7,7 +7,7 @@ import Clients from '@src/pages/components/clients/Index';
 import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
-  title: 'Vrnan - Frontend Developer Portfolio',
+  title: 'Vrnan - Web Engineer Portfolio',
   description:
     'Self-taught front-end developer from Palembang, Sumatera Selatan, crafting sleek and efficient web, desktop, and mobile apps. Combining creativity and technical skill to deliver innovative user-centric solutions.',
   keywords: [

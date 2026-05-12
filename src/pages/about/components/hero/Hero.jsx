@@ -54,10 +54,10 @@ function Hero() {
         <div ref={heroImageRef} className={styles.imageContainer}>
           {/* Blurred Background to fill empty space elegantly */}
           <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, filter: 'blur(40px) brightness(0.6)', transform: 'scale(1.1)', zIndex: 0 }}>
-            <Image priority quality={10} src="/giats/back.webp" sizes="100%" fill style={{ objectFit: 'cover' }} alt="Background Blur" />
+            <Image priority quality={10} src="/giats/me.jpeg" sizes="100%" fill style={{ objectFit: 'cover' }} alt="Background Blur" />
           </div>
           {/* Main Photo */}
-          <Image priority quality={100} src="/giats/back.webp" sizes="100%" fill style={{ objectFit: 'contain', objectPosition: 'center', zIndex: 1 }} alt="Gio Vernando Back" />
+          <Image priority quality={100} src="/giats/me.jpeg" sizes="100%" fill style={{ objectFit: 'contain', objectPosition: 'center', zIndex: 1 }} alt="Gio Vernando" />
         </div>
       </div>
     </section>
