@@ -24,7 +24,12 @@
       opacity: 0.7;
     }
     .title {
-      color: var(--white);
+      color: var(--black);
+      text-shadow: 
+        -1.5px -1.5px 0 var(--white),  
+         1.5px -1.5px 0 var(--white),
+        -1.5px  1.5px 0 var(--white),
+         1.5px  1.5px 0 var(--white);
     }
   }
   .wrapper {

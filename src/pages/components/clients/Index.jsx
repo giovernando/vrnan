@@ -92,22 +92,22 @@ function Clients() {
               school portal, modernizing the institution&apos;s digital
             </div>
             <div className="p-l">
-              presence and streamlining data management. Engineered
+              presence and streamlining data management.
             </div>
             <div className="p-l">
-              a scalable management system using React.js, TypeScript
+              Engineered a scalable management system using
             </div>
             <div className="p-l">
-              and Supabase,featuring a secure database with Row Level
+              React.js, TypeScript and Supabase,featuring a secure
             </div>
             <div className="p-l">
-              Security (RLS). Developed a custom CMS that allows staff
+              database with Row Level Security (RLS). Developed
             </div>
             <div className="p-l">
-              to update content in real-time and managed the entire
+              a custom CMS that allows staff to update content
             </div>
             <div className="p-l">
-              deployment lifecycle via Vercel, custom domain and SSL configuration.
+              in real-time and deployment lifecycle via Vercel, custom domain and SSL configuration.
             </div>
           </AppearTitle>
         </div>
@@ -140,22 +140,25 @@ function Clients() {
                 school portal, modernizing the institution&apos;s digital
               </div>
               <div className="p-l">
-                presence and streamlining data management. Engineered
+                presence and streamlining data management.
               </div>
               <div className="p-l">
-                a scalable management system using React.js, TypeScript
+                Engineered a scalable management system using
               </div>
               <div className="p-l">
-                and Supabase,featuring a secure database with Row Level
+                React.js, TypeScript and Supabase, featuring a secure
               </div>
               <div className="p-l">
-                Security (RLS). Developed a custom CMS that allows staff
+                database with Row Level Security (RLS). Developed
               </div>
               <div className="p-l">
-                to update content in real-time and managed the entire
+                a custom CMS that allows staff to update content
               </div>
               <div className="p-l">
-                deployment lifecycle via Vercel, custom domain and SSL configuration.
+                in real-time and managed the entire deployment lifecycle via
+              </div>
+              <div className="p-l">
+                Vercel, custom domain and SSL configuration.
               </div>
             </AppearTitle>
           </div>
