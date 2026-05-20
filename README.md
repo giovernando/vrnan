@@ -1,4 +1,4 @@
-## 🧠 Concept & Structure
+## Concept & Structure
 
 The visual foundation of giats.me is built around a **three-phase layering system**:
 
@@ -11,13 +11,13 @@ The visual foundation of giats.me is built around a **three-phase layering syste
 3. **The Fluid Animation Layer (Above All)**  
    A real-time fluid simulation overlays the entire interface, using `mix-blend-mode` and the cursor to create an interactive, artistic brush effect. It responds to user input, adding a subtle but powerful sense of depth and responsiveness.
 
-### 🪟 “Window” Effect
+### “Window” Effect
 
 Throughout the content layer, I created intentional **cut-out sections** or “windows” that act as **holes in the layout**, letting the background animation show through. These openings create a surreal experience where the layers visually bleed into each other, amplifying the immersive feel of the site.
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Framework:** [Next.js](https://nextjs.org/) (React)
 - **3D & Canvas:** [React Three Fiber](https://docs.pmnd.rs/react-three-fiber)
@@ -28,12 +28,12 @@ Throughout the content layer, I created intentional **cut-out sections** or “w
 
 ---
 
-## 📸 Assets & Privacy Notice
+## Assets & Privacy Notice
 
 - Personal and client-related visuals (e.g., images, logos, portraits) have been **blurred, replaced, or omitted** to respect privacy and copyright.
 
 ---
 
-## 📄 License & Attribution
+## License & Attribution
 
 This project is licensed under the **MIT License (with attribution required)**.
